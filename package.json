@@ -1,0 +1,21 @@
+{
+  "name": "staticly",
+  "version": "0.1.0",
+  "description": "A way to compile static pages with Handlebars.js using various template sources in one file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "handlebars",
+    "static",
+    "template"
+  ],
+  "author": "Aaron George <aaron.dean.george@gmail.com> (aarongeorge.me)",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "handlebars": "^3.0.3",
+    "lodash": "^3.10.1"
+  }
+}

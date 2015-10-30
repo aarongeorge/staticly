@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- @template -->
+        <title>Entry value for name: {{name}}</title>
+        <!-- /@template -->
+    </head>
+    <body>
+        <!-- @template url="http://jsonplaceholder.typicode.com/posts/1" -->
+        <h1>{{title}}</h1>
+        <!-- /@template -->
+
+        <!-- @template inline="{&quot;title&quot;: &quot;I am the test value of inline&quot;}" -->
+        <h1>{{title}}</h1>
+        <!-- /@template -->
+
+        <!-- @template file="../data/test.json" -->
+        <h1>{{title}}</h1>
+        <!-- /@template -->
+
+        <!-- @template url="http://jsonplaceholder.typicode.com/posts/1" transform="anyOther" -->
+        <h1>{{title}}</h1>
+        <!-- /@template -->
+    </body>
+</html>
