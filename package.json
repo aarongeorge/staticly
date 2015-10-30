@@ -2,7 +2,14 @@
   "name": "staticly",
   "version": "0.1.0",
   "description": "A way to compile static pages with Handlebars.js using various template sources in one file",
+  "bugs": {
+    "url": "https://github.com/aarongeorge/staticly/issues"
+  },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aarongeorge/staticly"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
